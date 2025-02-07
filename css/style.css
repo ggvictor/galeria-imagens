@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.search{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 20px;
+}
+.images{
+    margin-left: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap:wrap;
+}
