@@ -8,6 +8,9 @@ body{
     background-color: black;
     color: white;
 }
+h1{
+    font-weight:200;
+}
 .header{
     display: flex;
     justify-content: space-around;
@@ -15,10 +18,27 @@ body{
     margin-top: 20px;
 }
 .search{
+    position: relative;
     display:flex;
     justify-content:center;
     align-items:center;
     margin-bottom: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.search img{
+    height: 40px;
+    position: absolute;
+    left: 350px;
+    cursor: pointer;
+}
+.search input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    outline:none;
+    outline: 4px solid white;
 }
 .images{
     margin-left: 2rem;
