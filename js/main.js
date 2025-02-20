@@ -21,7 +21,8 @@ async function fetchImages (){
             const imgElement = document.createElement("img"); // tag img
             imgElement.src = image.urls.small;
             imgElement.alt = image.alt_description;
-            gallery.appendChild(imgElement) // adiciona imagem a galeria 
+            imgElement.classList = "img"
+            gallery.appendChild(imgElement) // adiciona imagem a galeria
 
         })
     } catch (error) {
@@ -30,7 +31,14 @@ async function fetchImages (){
 
 }
 //  eventos
-lupa.addEventListener('click', fetchImages)
+lupa.addEventListener('click',()=>{
+    fetchImages()
+    input.value = ""
+} )
 input.addEventListener('keypress', (event) =>{
-    if(event.key === "Enter") fetchImages()
+    if(event.key === "Enter"){
+        fetchImages()
+        input.value = ""
+    } 
+    
 })

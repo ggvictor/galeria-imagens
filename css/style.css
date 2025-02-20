@@ -33,6 +33,7 @@ h1{
     left: 350px;
     cursor: pointer;
     transition: 1s;
+   
 }
 .search img:hover{
     background-color: rgb(22, 21, 21);
@@ -51,4 +52,8 @@ h1{
     display: flex;
     gap: 1rem;
     flex-wrap:wrap;
+    
+}
+.img{
+    object-fit: cover;
 }
