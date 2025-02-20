@@ -8,5 +8,5 @@ Este projeto é uma galeria de imagens dinâmica que utiliza a API do Unsplash p
 - **JavaScript**: Para a interação dinâmica, incluindo a comunicação com a API do Unsplash e a manipulação dos dados retornados.
 - **API do Unsplash**: Para buscar e exibir imagens de forma dinâmica.
 
-[Clique Aqui](https://ggvictor.github.io/galeria-imagens/)
+[Clique Aqui](https://galeria-imagens-chi.vercel.app/)
 ![image](https://github.com/user-attachments/assets/14c5d6aa-896d-4d88-8ac5-088c4aa3651a)
